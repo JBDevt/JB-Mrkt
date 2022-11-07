@@ -759,7 +759,7 @@ footer .sign {
     color: var(--light-blue);
   }
   .navbar.sticky .menu-btn {
-    color: #fff;
+    /* color: #fff; */
   }
   #contact .column {
     width: 100%;

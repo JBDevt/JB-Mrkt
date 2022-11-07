@@ -712,7 +712,8 @@ footer .sign {
 
 @media (max-width: 991px) {
   .max-width {
-    padding: 1.5rem 4%;
+    padding: 1rem 0rem;
+    /* border: 2px solid red; */
   }
   section {
     padding: 1.5rem 4%;
@@ -773,6 +774,9 @@ footer .sign {
   }
 }
 @media (max-width: 768px) {
+  .navbar .logo a {
+    font-size: 2rem;
+  }
   #header .content {
     text-align: left;
   }
@@ -783,6 +787,7 @@ footer .sign {
 @media (max-width: 690px) {
   .max-width {
     margin: 0 auto;
+    padding: .3rem .5rem;
     width: 100%;
   }
   .navbar.sticky {

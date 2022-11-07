@@ -308,7 +308,6 @@ section {
 
 /* about section */
 #about {
-  max-height: auto;
   height: 100vh;
 }
 .skill-container {
@@ -363,6 +362,9 @@ section {
   background: #ffffff;
 }
 @media (max-width: 1020px) {
+  #about {
+    height: auto;
+  }
   .skill-container {
       grid-template-columns: 1fr;
       height: auto;

@@ -145,10 +145,9 @@ function ajax(method, url, data, success, error) {
 // for skills
 var typed = new Typed(".typing-text", {
   strings: [
-    "Web Developer",
-    "Web Developer",
-    "SEO Specialist",
-    "Digital Strategist",
+     "Front End Developer",
+     "Front End Developer",
+     "Web Developer",
   ],
   loop: true,
   typeSpeed: 150,
